@@ -20,5 +20,9 @@ public class Third {
             System.out.println(array[i]);
 
         }
+
+        for (char s : array2){
+            System.out.println(s);
+        }
     }
 }

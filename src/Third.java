@@ -23,6 +23,6 @@ public class Third {
 
         for (char s : array2){
             System.out.println(s);
-        }
+        } 
     }
 }

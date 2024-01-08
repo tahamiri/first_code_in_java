@@ -14,7 +14,7 @@ public class Third {
 
             array[i] = x.charAt(i);
 
-        } 
+        }
 
         for (int i = 0; i < z; i++){
             System.out.println(array[i]);

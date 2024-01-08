@@ -1,16 +1,18 @@
 public class Seventh {
-    private String name;
+    protected String name = "taha";
     protected int age;
 
     public void Seventh(String name){
         this.name = name;
     }
+
+
     public void setAge(int age){
         this.age = age;
     }
 
-    public void setName(String name){
-        this.name = name;
+    protected String getName() {
+        return this.name;
     }
 
     public static void main(String[] args) {
@@ -28,6 +30,8 @@ class Employee extends Seventh {
 
     public void setAge(int age){
         this.age = age + 100;
+        String x = super.getName();
+        System.out.println(x);
     }
 
     public static void main(String[] args){
@@ -35,6 +39,7 @@ class Employee extends Seventh {
         Employee a = new Employee();
         a.setAge(20);
         System.out.println(a.age);
+
     }
 
 }

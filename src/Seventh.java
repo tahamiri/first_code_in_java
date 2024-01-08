@@ -1,6 +1,6 @@
 public class Seventh {
     private String name;
-    public int age;
+    protected int age;
 
     public void Seventh(String name){
         this.name = name;
